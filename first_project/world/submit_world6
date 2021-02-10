@@ -9791,7 +9791,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/manjot/workspace/first_project/model/chassy.dae</uri>
+              <uri>../model/chassy.dae</uri>
               <scale>0.1 0.1 0.1</scale>
             </mesh>
           </geometry>
@@ -9818,7 +9818,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/manjot/workspace/first_project/model/chassy.dae</uri>
+              <uri>../model/chassy.dae</uri>
               <scale>0.1 0.1 0.1</scale>
             </mesh>
           </geometry>
@@ -10424,7 +10424,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/manjot/workspace/first_project/model/chassy.dae</uri>
+              <uri>../model/chassy.dae</uri>
               <scale>0.1 0.1 0.1</scale>
             </mesh>
           </geometry>
@@ -10451,7 +10451,7 @@
           <pose frame=''>0 0 0 0 -0 0</pose>
           <geometry>
             <mesh>
-              <uri>/home/manjot/workspace/first_project/model/chassy.dae</uri>
+              <uri>../model/chassy.dae</uri>
               <scale>0.1 0.1 0.1</scale>
             </mesh>
           </geometry>
