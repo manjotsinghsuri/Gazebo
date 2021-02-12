@@ -4,9 +4,7 @@ Gazebo simulations and other things
 ## For using the Plugin, we need to build the package.
 
 ### For building the package, go to first_project folder.
-'''
-cd Simulations/first_project
-'''
+'cd Simulations/first_project'
 
 ### Then create a folder named build there.
 '''
