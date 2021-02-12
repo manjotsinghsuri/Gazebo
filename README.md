@@ -14,11 +14,11 @@ Gazebo simulations and other things
 
 * Then inside build folder, build the package as done below
 
-    `cd build/`
-
-    `cmake ../`
-
-    `make`
+    ```
+    cd build/
+    cmake ../
+    make
+    ```
 
 
 * After that we need to set the path for the plugin to work
