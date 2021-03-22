@@ -2,11 +2,11 @@
 Gazebo simulations and other things
 
 ## Table Of Contents
-- [Project 1](Project-1)
-- [Project 2](Project-2)
+- [Project 1](#Project-1)
+- [Project 2](#Project-2)
 
 ## Project 1
----
+
 ## For using the Plugin, we need to build the package.
 
 * For building the package, go to first_project folder.
@@ -38,7 +38,7 @@ Gazebo simulations and other things
     `gazebo submit_world6`
 
 ## Project 2
----
+
 
 There are 2 packages :
 * my_robot - Launching the world and the URDF model
