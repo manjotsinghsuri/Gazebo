@@ -34,7 +34,7 @@ void process_image_callback(const sensor_msgs::Image img)
     ROS_INFO("New Image received"); 
     for(int i = 0; i < img.height; i++)
     {
-      for(int j = 0; j < (img.step - 2); j++)
+      for(int j = 0; j < (img.step - 2); j = j + 3)
       {
         //checking all 3 pixels
         if(img.data[j + (i * img.step)] == white_pixel && img.data[j + 1 + (i * img.step)] == white_pixel && img.data[j + 2 + (i * img.step)] == white_pixel)
@@ -43,15 +43,15 @@ void process_image_callback(const sensor_msgs::Image img)
           ROS_INFO("white pixel received");
           if(j < img.step/3)
           {
-            drive_robot(0.0, 0.7);
+            drive_robot(0.0, 1.0);
           }
           else if (j > 2*img.step/3)
           {
-            drive_robot(0.0, -0.7);
+            drive_robot(0.0, -1.0);
           }
           else if (j <= 2*img.step/3 && j >= img.step/3)
           {
-            drive_robot(0.8, 0.0);
+            drive_robot(1.5, 0.0);
           }
           //break;
           goto check;
